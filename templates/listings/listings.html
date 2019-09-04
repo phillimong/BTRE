@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1 class="display-4">Browse Our Properties{{name}}</h1>
+          <h1 class="display-4">Browse Our Properties</h1>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
         </div>
       </div>
@@ -103,7 +103,7 @@
                 </li>
               {% endif %}
               {% for i in listings.paginator.page_range%}
-                {% if listings.number == i%}
+                {% if listings.number == i %}
                   <li class="page-item active">
                     <a class="page-link">{{i}}</a>
                   </li>
